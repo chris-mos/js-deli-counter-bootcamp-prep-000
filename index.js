@@ -16,7 +16,8 @@ function nowServing(person){
   
   }
 }
-function currentLine(line){
+function currentLine(katzDeli){
+ line =[]
  var i = 0
  while(line.length > i){
    i++
