@@ -17,7 +17,7 @@ function nowServing(person){
   }
 }
 function currentLine(katzDeli){
- line =[]
+ var line =[]
  var i = 0
  for(let i = 0; i < katzDeli.length; i++){
    line.push(` `+[i+1]+`. `+ katzDeli[i])
