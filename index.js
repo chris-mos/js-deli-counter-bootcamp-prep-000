@@ -19,9 +19,7 @@ function nowServing(person){
 function currentLine(katzDeli){
  line =[]
  var i = 0
- while(line.length > i){
-   i++
- }
+ for()
 if (line.length === 0) {
   return 'The line is currently empty.'
   
